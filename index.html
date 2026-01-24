@@ -1,50 +1,19 @@
-<!DOCTYPE html>
-<html>
+<html lang=en>
 	<head>
 		<title>the silly blokos page</title>
-		<style>
-			body {
-				font-family: FairFax HD, sans-serif; /* placeholder font */
-				background: url(assets/bg.png);
-				color: white;
-				text-align: center;
-			}
-			h1 {
-				font-size: 40px;
-			}
-			p {
-				font-size: 20px;
-				padding-left: 32px;
-				padding-right: 32px;
-			}
-			.test {
-				image-rendering: pixelated;
-				position: relative;
-				width: 200px;
-				transform-origin: 0px 200px;
-				-webkit-animation: glide 1s ease-in-out alternate infinite;
-			}
-			@keyframes glide {
-				from {
-					top: 0px;
-					rotate: 5deg;
-				}
-				to {
-					top: 20px;
-					rotate: -5deg;
-				}
-			}
-		</style>
+		<link rel="stylesheet" href="assets/style.css">
+		<meta charset="UTF-8">
 	</head>
-	<body>
-		<h1>a placeholder</h1>
-		<p>the page is currently pretty empty, but im planning to update it with more stuff</p>
+	<body id="background">
+		<h1>the silly blokos page</h1>
+		<p>hi, im blokos (they/them)!</p>
+		<p>this page is currently pretty empty, but im planning to add more stuff to it soon</p>
 		<img class="test" src="assets/buh.png">
 		<p>i am the stardust</p>
-		<iframe src="https://incr.easrng.net/badge?key=blokos" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
-		<a href="https://barfy.itch.io/adventure">
-			<img src="assets/ba88x31.gif">
-		</a>
+		<div id="88x31">
+			<iframe src="https://incr.easrng.net/badge?key=blokos" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
+			<a href="https://barfy.itch.io/adventure"><img src="assets/ba88x31.gif"></a>
+		</div>
 	</body>
 </html>
 

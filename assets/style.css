@@ -1,0 +1,40 @@
+body {
+	font-family: FairFax HD, sans-serif; /* placeholder font */
+	color: white;
+	text-align: center;
+}
+#background {
+	background: url(bg.png);
+	animation: scroll 4s linear infinite;
+}
+@keyframes scroll {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 64 0;
+	}
+}
+h1 {
+	font-size: 40px;
+	padding-top: 32px;
+}
+p {
+	font-size: 20px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+.test {
+	image-rendering: pixelated;
+	position: relative;
+	width: 200px;
+	animation: glide 1s ease-in-out alternate infinite;
+}
+@keyframes glide {
+	from {
+		bottom: 0px;
+	}
+	to {
+		bottom: 10px;
+	}
+}
