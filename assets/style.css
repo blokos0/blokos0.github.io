@@ -30,6 +30,15 @@ p {
 	padding-top: 8px;
 	animation: glide 1s ease-in-out alternate infinite;
 }
+.spoiler {
+	color: transparent;
+	background-color: black;
+	display: inline-flex;
+}
+.spoiler:hover {
+	color: white;
+	background-color: transparent;
+}
 @keyframes glide {
 	from {
 		bottom: 0px;
